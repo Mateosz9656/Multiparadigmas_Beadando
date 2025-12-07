@@ -9,7 +9,7 @@ A Beadandó követelményeinek megfelelően készült.
 *   **Backend (FastAPI):** REST API végpontok az adatok kezeléséhez.
 *   **Frontend (Streamlit):** Felhasználói felület az adatok megjelenítéséhez és diagramokhoz.
 *   **Adatbázis (SQLAlchemy + SQLite):** Adatok tartós tárolása.
-*   **Automatizáció:** 5 percenkénti automatikus adatmentés (háttérszolgáltatás).
+*   **Automatizáció:** 1 oránként automatikus adatmentés (háttérszolgáltatás).
 *   **Tesztelés:** Pytest alapú egységtesztek.
 
 ## Architektúra
