@@ -1,0 +1,18 @@
+# requirements.txt
+# Backend és Adatkezelés
+fastapi
+uvicorn[standard]
+SQLAlchemy
+pydantic-settings
+python-dotenv
+requests 
+
+# Frontend és Vizualizáció
+streamlit
+pandas
+plotly 
+
+# Tesztelés (a legfontosabbak)
+pytest
+pytest-asyncio
+httpx
