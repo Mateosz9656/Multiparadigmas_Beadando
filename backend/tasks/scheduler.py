@@ -55,5 +55,5 @@ async def update_weather_periodically():
         finally:
             db.close()
         
-        logger.info("--- Update Cycle Finished. Next run in 60 minutes. ---")
-        await asyncio.sleep(3600)
+        logger.info("--- Update Cycle Finished. Next run in 5 minutes. ---")
+        await asyncio.sleep(300)
